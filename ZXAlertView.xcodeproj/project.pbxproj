@@ -16,6 +16,21 @@
 		F52FF15A22CA5FC400147FB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF15922CA5FC400147FB9 /* main.m */; };
 		F52FF16222CA68C600147FB9 /* ZXBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF16122CA68C600147FB9 /* ZXBaseTableViewController.m */; };
 		F52FF16622CA6BC700147FB9 /* ZXContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF16522CA6BC700147FB9 /* ZXContentModel.m */; };
+		F52FF18722CB9C5400147FB9 /* ZXAlertViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF16B22CB9C5400147FB9 /* ZXAlertViewBase.m */; };
+		F52FF18822CB9C5400147FB9 /* ZXSmallImageAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF16D22CB9C5400147FB9 /* ZXSmallImageAlertView.m */; };
+		F52FF18B22CB9C5400147FB9 /* ZXActionRuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF17122CB9C5400147FB9 /* ZXActionRuleView.m */; };
+		F52FF18C22CB9C5400147FB9 /* ZXShareAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF17222CB9C5400147FB9 /* ZXShareAlertView.m */; };
+		F52FF18E22CB9C5400147FB9 /* ZXImageButtonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF17522CB9C5400147FB9 /* ZXImageButtonAlertView.m */; };
+		F52FF19022CB9C5400147FB9 /* ZXInfoAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF17822CB9C5400147FB9 /* ZXInfoAlertView.m */; };
+		F52FF19122CB9C5400147FB9 /* ZXAlbumAlertview.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF17922CB9C5400147FB9 /* ZXAlbumAlertview.m */; };
+		F52FF19222CB9C5400147FB9 /* ZXCenterBtnImageAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF17B22CB9C5400147FB9 /* ZXCenterBtnImageAlertView.m */; };
+		F52FF19822CB9DF200147FB9 /* UIView+ZXSetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF19622CB9DF200147FB9 /* UIView+ZXSetRect.m */; };
+		F52FF1A322CBA1E600147FB9 /* UIButton+ZXBlockAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF1A122CBA1E600147FB9 /* UIButton+ZXBlockAction.m */; };
+		F52FF38122CBA32700147FB9 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF30222CBA32700147FB9 /* TBCityIconFont.m */; };
+		F52FF38222CBA32700147FB9 /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF30322CBA32700147FB9 /* TBCityIconInfo.m */; };
+		F52FF38322CBA32700147FB9 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF30422CBA32700147FB9 /* UIImage+TBCityIconFont.m */; };
+		F52FF38622CBA3CF00147FB9 /* UIColor+SCBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF38422CBA3CE00147FB9 /* UIColor+SCBase.m */; };
+		F52FF38B22CBA45D00147FB9 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F52FF38A22CBA45D00147FB9 /* iconfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +51,38 @@
 		F52FF16122CA68C600147FB9 /* ZXBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXBaseTableViewController.m; sourceTree = "<group>"; };
 		F52FF16422CA6BC700147FB9 /* ZXContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXContentModel.h; sourceTree = "<group>"; };
 		F52FF16522CA6BC700147FB9 /* ZXContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXContentModel.m; sourceTree = "<group>"; };
+		F52FF16822CB9C5400147FB9 /* ZXAlbumAlertview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAlbumAlertview.h; sourceTree = "<group>"; };
+		F52FF16922CB9C5400147FB9 /* ZXInfoAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXInfoAlertView.h; sourceTree = "<group>"; };
+		F52FF16B22CB9C5400147FB9 /* ZXAlertViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAlertViewBase.m; sourceTree = "<group>"; };
+		F52FF16D22CB9C5400147FB9 /* ZXSmallImageAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSmallImageAlertView.m; sourceTree = "<group>"; };
+		F52FF16F22CB9C5400147FB9 /* ZXCenterBtnImageAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCenterBtnImageAlertView.h; sourceTree = "<group>"; };
+		F52FF17122CB9C5400147FB9 /* ZXActionRuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXActionRuleView.m; sourceTree = "<group>"; };
+		F52FF17222CB9C5400147FB9 /* ZXShareAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXShareAlertView.m; sourceTree = "<group>"; };
+		F52FF17522CB9C5400147FB9 /* ZXImageButtonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImageButtonAlertView.m; sourceTree = "<group>"; };
+		F52FF17822CB9C5400147FB9 /* ZXInfoAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXInfoAlertView.m; sourceTree = "<group>"; };
+		F52FF17922CB9C5400147FB9 /* ZXAlbumAlertview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAlbumAlertview.m; sourceTree = "<group>"; };
+		F52FF17B22CB9C5400147FB9 /* ZXCenterBtnImageAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCenterBtnImageAlertView.m; sourceTree = "<group>"; };
+		F52FF17D22CB9C5400147FB9 /* ZXSmallImageAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSmallImageAlertView.h; sourceTree = "<group>"; };
+		F52FF17F22CB9C5400147FB9 /* ZXAlertViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAlertViewBase.h; sourceTree = "<group>"; };
+		F52FF18122CB9C5400147FB9 /* ZXShareAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXShareAlertView.h; sourceTree = "<group>"; };
+		F52FF18222CB9C5400147FB9 /* ZXActionRuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXActionRuleView.h; sourceTree = "<group>"; };
+		F52FF18422CB9C5400147FB9 /* ZXImageButtonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImageButtonAlertView.h; sourceTree = "<group>"; };
+		F52FF19622CB9DF200147FB9 /* UIView+ZXSetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXSetRect.m"; sourceTree = "<group>"; };
+		F52FF19722CB9DF200147FB9 /* UIView+ZXSetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXSetRect.h"; sourceTree = "<group>"; };
+		F52FF19922CB9E3700147FB9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F52FF19A22CB9EE800147FB9 /* ZXUINormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXUINormal.h; sourceTree = "<group>"; };
+		F52FF1A122CBA1E600147FB9 /* UIButton+ZXBlockAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZXBlockAction.m"; sourceTree = "<group>"; };
+		F52FF1A222CBA1E600147FB9 /* UIButton+ZXBlockAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZXBlockAction.h"; sourceTree = "<group>"; };
+		F52FF30222CBA32700147FB9 /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		F52FF30322CBA32700147FB9 /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		F52FF30422CBA32700147FB9 /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		F52FF30522CBA32700147FB9 /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		F52FF30622CBA32700147FB9 /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		F52FF30722CBA32700147FB9 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		F52FF38422CBA3CE00147FB9 /* UIColor+SCBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SCBase.m"; sourceTree = "<group>"; };
+		F52FF38522CBA3CF00147FB9 /* UIColor+SCBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SCBase.h"; sourceTree = "<group>"; };
+		F52FF38A22CBA45D00147FB9 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		F52FF38C22CBAD9000147FB9 /* ZXAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAlertView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +135,7 @@
 		F52FF14922CA5FC200147FB9 /* ZXAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				F52FF16722CB9C5400147FB9 /* ZXAlertView */,
 				F52FF16322CA6B7C00147FB9 /* Base */,
 				F52FF14A22CA5FC200147FB9 /* AppDelegate.h */,
 				F52FF14B22CA5FC200147FB9 /* AppDelegate.m */,
@@ -97,7 +145,10 @@
 				F52FF15322CA5FC400147FB9 /* Assets.xcassets */,
 				F52FF15522CA5FC400147FB9 /* LaunchScreen.storyboard */,
 				F52FF15822CA5FC400147FB9 /* Info.plist */,
+				F52FF19922CB9E3700147FB9 /* PrefixHeader.pch */,
 				F52FF15922CA5FC400147FB9 /* main.m */,
+				F52FF38A22CBA45D00147FB9 /* iconfont.ttf */,
+				F52FF19522CB9DE200147FB9 /* Tool */,
 			);
 			path = ZXAlertView;
 			sourceTree = "<group>";
@@ -111,6 +162,66 @@
 				F52FF16522CA6BC700147FB9 /* ZXContentModel.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		F52FF16722CB9C5400147FB9 /* ZXAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F52FF17F22CB9C5400147FB9 /* ZXAlertViewBase.h */,
+				F52FF16B22CB9C5400147FB9 /* ZXAlertViewBase.m */,
+				F52FF16822CB9C5400147FB9 /* ZXAlbumAlertview.h */,
+				F52FF17922CB9C5400147FB9 /* ZXAlbumAlertview.m */,
+				F52FF16922CB9C5400147FB9 /* ZXInfoAlertView.h */,
+				F52FF17822CB9C5400147FB9 /* ZXInfoAlertView.m */,
+				F52FF18222CB9C5400147FB9 /* ZXActionRuleView.h */,
+				F52FF17122CB9C5400147FB9 /* ZXActionRuleView.m */,
+				F52FF17D22CB9C5400147FB9 /* ZXSmallImageAlertView.h */,
+				F52FF16D22CB9C5400147FB9 /* ZXSmallImageAlertView.m */,
+				F52FF16F22CB9C5400147FB9 /* ZXCenterBtnImageAlertView.h */,
+				F52FF17B22CB9C5400147FB9 /* ZXCenterBtnImageAlertView.m */,
+				F52FF18122CB9C5400147FB9 /* ZXShareAlertView.h */,
+				F52FF17222CB9C5400147FB9 /* ZXShareAlertView.m */,
+				F52FF18422CB9C5400147FB9 /* ZXImageButtonAlertView.h */,
+				F52FF17522CB9C5400147FB9 /* ZXImageButtonAlertView.m */,
+				F52FF38C22CBAD9000147FB9 /* ZXAlertView.h */,
+			);
+			path = ZXAlertView;
+			sourceTree = "<group>";
+		};
+		F52FF19522CB9DE200147FB9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F52FF1A422CBA32600147FB9 /* ThirdParty */,
+				F52FF1A222CBA1E600147FB9 /* UIButton+ZXBlockAction.h */,
+				F52FF1A122CBA1E600147FB9 /* UIButton+ZXBlockAction.m */,
+				F52FF38522CBA3CF00147FB9 /* UIColor+SCBase.h */,
+				F52FF38422CBA3CE00147FB9 /* UIColor+SCBase.m */,
+				F52FF19A22CB9EE800147FB9 /* ZXUINormal.h */,
+				F52FF19722CB9DF200147FB9 /* UIView+ZXSetRect.h */,
+				F52FF19622CB9DF200147FB9 /* UIView+ZXSetRect.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F52FF1A422CBA32600147FB9 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				F52FF30122CBA32700147FB9 /* IconFont */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		F52FF30122CBA32700147FB9 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				F52FF30222CBA32700147FB9 /* TBCityIconFont.m */,
+				F52FF30322CBA32700147FB9 /* TBCityIconInfo.m */,
+				F52FF30422CBA32700147FB9 /* UIImage+TBCityIconFont.m */,
+				F52FF30522CBA32700147FB9 /* TBCityIconInfo.h */,
+				F52FF30622CBA32700147FB9 /* TBCityIconFont.h */,
+				F52FF30722CBA32700147FB9 /* UIImage+TBCityIconFont.h */,
+			);
+			path = IconFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52FF38B22CBA45D00147FB9 /* iconfont.ttf in Resources */,
 				F52FF15722CA5FC400147FB9 /* LaunchScreen.storyboard in Resources */,
 				F52FF15422CA5FC400147FB9 /* Assets.xcassets in Resources */,
 				F52FF15222CA5FC200147FB9 /* Main.storyboard in Resources */,
@@ -209,9 +321,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52FF19222CB9C5400147FB9 /* ZXCenterBtnImageAlertView.m in Sources */,
+				F52FF38622CBA3CF00147FB9 /* UIColor+SCBase.m in Sources */,
+				F52FF18722CB9C5400147FB9 /* ZXAlertViewBase.m in Sources */,
+				F52FF38322CBA32700147FB9 /* UIImage+TBCityIconFont.m in Sources */,
+				F52FF38122CBA32700147FB9 /* TBCityIconFont.m in Sources */,
+				F52FF19122CB9C5400147FB9 /* ZXAlbumAlertview.m in Sources */,
+				F52FF1A322CBA1E600147FB9 /* UIButton+ZXBlockAction.m in Sources */,
+				F52FF18E22CB9C5400147FB9 /* ZXImageButtonAlertView.m in Sources */,
+				F52FF38222CBA32700147FB9 /* TBCityIconInfo.m in Sources */,
 				F52FF16622CA6BC700147FB9 /* ZXContentModel.m in Sources */,
 				F52FF14F22CA5FC200147FB9 /* ViewController.m in Sources */,
+				F52FF18C22CB9C5400147FB9 /* ZXShareAlertView.m in Sources */,
+				F52FF18B22CB9C5400147FB9 /* ZXActionRuleView.m in Sources */,
+				F52FF18822CB9C5400147FB9 /* ZXSmallImageAlertView.m in Sources */,
+				F52FF19822CB9DF200147FB9 /* UIView+ZXSetRect.m in Sources */,
 				F52FF15A22CA5FC400147FB9 /* main.m in Sources */,
+				F52FF19022CB9C5400147FB9 /* ZXInfoAlertView.m in Sources */,
 				F52FF16222CA68C600147FB9 /* ZXBaseTableViewController.m in Sources */,
 				F52FF14C22CA5FC200147FB9 /* AppDelegate.m in Sources */,
 			);
@@ -358,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTMKG6EH2C;
+				GCC_PREFIX_HEADER = ZXAlertView/PrefixHeader.pch;
 				INFOPLIST_FILE = ZXAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,6 +503,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GTMKG6EH2C;
+				GCC_PREFIX_HEADER = ZXAlertView/PrefixHeader.pch;
 				INFOPLIST_FILE = ZXAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
