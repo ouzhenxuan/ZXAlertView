@@ -46,8 +46,6 @@
         }];
         _leftBtn.layer.borderWidth = 1;
         _leftBtn.layer.borderColor = ZXCOLOR_WHITE.CGColor;
-        _leftBtn.layer.cornerRadius = 22;
-        _leftBtn.layer.maskedCorners = YES;
         
         [_leftBtn addActionBlock:^(UIButton *button) {
             leftAction();
@@ -67,8 +65,6 @@
         }];
         
         _rightBtn.backgroundColor = ZXCOLOR_WHITE;
-        _rightBtn.layer.cornerRadius = 22;
-        _rightBtn.layer.maskedCorners = YES;
         
         [_rightBtn addActionBlock:^(UIButton *button) {
             rightAction();
