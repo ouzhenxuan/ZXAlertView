@@ -35,38 +35,45 @@
 }
 
 - (void)setupTheView{
-    WS(weakSelf);
     
     self.contentView = [[UIButton alloc] init];
     [self addSubview:self.contentView];
     self.contentView.backgroundColor = ZXCOLOR_WHITE;
-    [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.mas_equalTo(weakSelf.mas_centerX);
-        make.centerY.mas_equalTo(weakSelf.mas_centerY);
-        make.width.mas_equalTo(300);
-        make.height.mas_equalTo(400);
-    }];
+    
     self.contentView.userInteractionEnabled = YES;
     
     _titleBtn = [[UIButton alloc] init];
     [self addSubview:_titleBtn];
-    [self.titleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerY.mas_equalTo(weakSelf.contentView.mas_top);
-        make.centerX.mas_equalTo(weakSelf.mas_centerX);
-        make.width.mas_offset(zx_scaleX_pt(160));
-        make.height.mas_equalTo(40);
-    }];
+    
     self.titleBtn.titleLabel.font = ZXFONT_18;
     self.titleBtn.titleLabel.textColor = ZXCOLOR_WHITE;
     self.titleBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
     [self.titleBtn setBackgroundColor:_color];
     [self.titleBtn setTitle:_title forState:UIControlStateNormal];
     
+    [self setupLayout];
+}
+
+- (void)setupLayout{
+    [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(self.mas_centerX);
+        make.centerY.mas_equalTo(self.mas_centerY);
+        make.width.mas_equalTo(300);
+        make.height.mas_equalTo(400);
+    }];
+    
+    [self.titleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.mas_equalTo(self.contentView.mas_top);
+        make.centerX.mas_equalTo(self.mas_centerX);
+        make.width.mas_offset(zx_scaleX_pt(160));
+        make.height.mas_equalTo(40);
+    }];
+    
     [self.closeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(44);
         make.width.mas_equalTo(44);
         make.top.mas_equalTo(self.contentView.mas_bottom).mas_offset(20);
-        make.centerX.mas_equalTo(weakSelf.mas_centerX);
+        make.centerX.mas_equalTo(self.mas_centerX);
     }];
 }
 

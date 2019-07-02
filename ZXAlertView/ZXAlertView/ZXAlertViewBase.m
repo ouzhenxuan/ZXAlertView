@@ -41,7 +41,7 @@
     _closeBtn = [[UIButton alloc] init];
     [self addSubview:_closeBtn];
 
-    [_closeBtn setTitle:@"X" forState:UIControlStateNormal];
+    [_closeBtn setImage:[UIImage iconWithInfo:TBCityIconInfoMake(@"\U0000e665", 44, ZXCOLOR_WHITE)] forState:UIControlStateNormal];
     [_closeBtn addActionBlock:^(UIButton *button) {
         [weakSelf dismiss];
     }];

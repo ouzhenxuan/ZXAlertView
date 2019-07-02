@@ -28,7 +28,7 @@ typedef NS_ENUM(NSUInteger, ZXAlertType) {
     
     self.dataArray = @[@{@"title" : @"展示长内容滑动框", @"type" : @(ZXAlertTypeScrollview)},
                        @{@"title" : @"带block回调的图片弹窗", @"type" : @(ZXAlertTypeImageButton)},
-                       @{@"title" : @"带小图片和block回调的弹窗", @"type" : @(ZXAlertTypeSmallImage)},
+                       @{@"title" : @"带小图片和文字的弹窗", @"type" : @(ZXAlertTypeSmallImage)},
                        @{@"title" : @"带一个block回调和中间按钮的弹窗", @"type" : @(ZXAlertTypeCenterButtonImage)},
                        @{@"title" : @"分享弹窗", @"type" : @(ZXAlertTypeShare)}].mutableCopy;
     
@@ -52,7 +52,7 @@ typedef NS_ENUM(NSUInteger, ZXAlertType) {
                 
             case ZXAlertTypeSmallImage:
             {
-                // 带小图片和block回调的弹窗
+                // 带小图片和文字的弹窗
                 [strongSelf showSmallImageBlockAlertView];
             }
                 break;
@@ -83,26 +83,35 @@ typedef NS_ENUM(NSUInteger, ZXAlertType) {
 
 #pragma mark - 带block回调的图片弹窗
 - (void)showImageButtonAlertView{
-    
+    ZXImageButtonAlertView * alertView = [[ZXImageButtonAlertView alloc] initWithImage:@"alertView_share" leftButtonTitle:@"继续发问" rightButtonTitle:@"分享助力" leftAction:^{
+        NSLog(@"left");
+    } rightAction:^{
+        NSLog(@"right");
+    }];
+    [alertView show];
 }
 
-#pragma mark - 带小图片和block回调的弹窗
+#pragma mark - 带小图片和文字的弹窗
 
 - (void)showSmallImageBlockAlertView {
-    
+    ZXSmallImageAlertView * alertView = [[ZXSmallImageAlertView alloc] initWithImageName:@"quickQuestion" tipContent:@"快速提问" flowerScore:-10];
+    [alertView show];
 }
 
 #pragma mark - 带一个block回调和中间按钮的弹窗
 
 - (void)showCenterButtonAlertView {
-   
+    ZXCenterBtnImageAlertView * alertView = [[ZXCenterBtnImageAlertView alloc] initWithImageName:@"insufficientBalance" tipContent:@"余额不足" flowerScore:0 centerButtonTitle:@"如何赚红花" centerAction:^{
+        NSLog(@"123");
+    }];
+    [alertView show];
 }
 
 #pragma mark - 分享弹窗
 
 - (void)showShareView {
-   
-    
+    ZXShareAlertView * alertView = [[ZXShareAlertView alloc] initTheShareAlertView];
+    [alertView show];
 }
 
 
